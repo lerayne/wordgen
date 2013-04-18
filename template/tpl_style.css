@@ -1,0 +1,267 @@
+/* CSS Document */
+
+body {
+	font:12px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+
+/* общие классы */
+.upper {text-transform: uppercase;}
+
+.hidden {display:none;}
+
+.sub {font-size:10px; color:#555;}
+
+.overflow {overflow:auto;}
+
+/* панели */
+#gen_panel {
+	background:#ddd;
+	width:20%;
+	min-width:265px;
+	vertical-align:top;
+	padding:10px;
+}
+
+#tables_panel {
+	background:white;
+	width:80%;
+	vertical-align:top;
+}
+
+/* вкладки */
+#tabs {
+	padding:5px 10px 0 10px;
+	background:#069;
+	border-bottom:4px solid white;
+}
+#tabs span {
+	display:block;
+	float:left;
+	background:#ddd;
+	padding:5px;
+	border-bottom:1px solid #069;
+	margin-right:5px;
+	border-radius:4px 4px 0 0;
+	-moz-border-radius:4px 4px 0 0;
+	-webkit-border-radius:4px 4px 0 0;
+	color:#555;
+}
+
+#tabs span:hover {
+	background:#eee;
+	cursor:pointer;
+	color:black;
+}
+
+#tabs .active, #tabs .active:hover {
+	border-bottom:1px solid white;
+	background:white;
+	color:black;
+	cursor:default;
+}
+
+#tabs input {display:none;}
+
+.tab {padding-left:8px;}
+
+#meanings_cont {
+	float:tight;
+	color:white;
+	margin-top:2px;
+}
+
+#meanings_cont input {
+	display:inline;
+	margin:3px;
+	margin-top:1px;
+	vertical-align:middle;
+}
+
+/* плашки рун */
+div.runetable {
+	float:left;
+	margin:1px;
+	padding:3px;
+	background:#f0f0f0;
+	vertical-align:middle;
+	width:230px;
+	border:1px solid #ccc;
+	height:46px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+.runetable img, 
+.runetable input {
+	vertical-align:middle;
+}
+
+.brief img, .runetable img {border:1px solid transparent;}
+
+.runetable img:hover, .brief img:hover {
+	border-color:#69F;
+	background:#69F;
+	cursor:pointer;
+}
+
+.runetable .meaning {
+	font-size:10px; 
+	color:#555; 
+	text-align:right;
+}
+
+div.examp {
+	background:#e5e5e5;
+	width:470px;
+	float:none;
+	height:44px;
+	border:1px solid #333;
+}
+
+div.examp img, div.examp img:hover {
+	border:1px solid #e5e5e5;
+	background:#e5e5e5;
+	cursor:default;
+}
+
+/* подсветка плашек*/
+div.hl, tr.hl td {
+	background:lemonchiffon;
+	border-color:#c08653;
+}
+
+/* переключение значений */	
+.mean_none {display:none;}
+.mean_common .m_mag {display:none;}
+.mean_magic .m_com {display:none;}
+
+#load_page_throbber {
+	background:url(../images/throbber-big.gif) bottom center no-repeat;
+	height:100px;
+}
+
+/* таблица рун */
+.brief td, .brief th {
+	background:white;
+	padding: 3px 6px;
+	border-bottom:1px solid #eee;
+	border-left:1px solid #ccc;
+	color:#444;
+}
+
+.brief th {
+	background:#eee;
+	border:solid #d0d0d0;
+	border-width: 1px 0 0 1px;
+}
+
+.list_symbol {
+	font-weight:bold;
+	font-size:14px;
+	color:black;
+}
+
+.genbutton {
+	width:100%;
+	height:40px;
+	margin-top:10px;
+}
+
+#word {
+	padding:5px;
+	margin-top:8px;
+	background:#069;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+#output {
+	width:45%;
+	background:white;
+	border:1px solid transparent;
+	padding:2px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	font-size:15px;
+}
+
+#transcrib {
+	padding-left:3px;
+	color:white;
+	font-size:14px;
+}
+
+#runescript {
+	margin-bottom:8px;
+	height:24px;
+	background:#eee;
+	padding:4px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+#runescript img {
+	margin-right:3px;
+	border:1px solid transparent;
+}
+
+#runescript img:hover {
+	border-color:#FC3;
+	background:#FC3;
+}
+
+.svg_arrow {
+	height:35px; 
+	width:100%;
+	text-align:center;
+	margin-top:5px;
+}
+
+/* колонка подсказок */
+#meanings {
+	width:100%;
+	margin-top:4px;}
+
+#meanings td {
+	padding:2px;
+	border-bottom:1px solid #ccc;
+	font-size:10px; 
+	color:#555;
+}
+
+#meanings tr:hover td {background:lemonchiffon;}
+
+#meanings img {
+	width:11px;
+	height:11px;
+	vertical-align:middle;
+}
+
+#voc_dialog {
+	display:none;
+}
+
+#dictContainer .script-rune {
+	width:12px;
+}
+
+td[contenteditable="true"] {
+	background-color: #fffacd;
+}
+
+.link {
+	color:navy;
+	text-decoration: underline;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+.brief select {
+	margin:0;
+}

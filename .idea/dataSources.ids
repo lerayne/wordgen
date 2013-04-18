@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="71124e89-0c23-446b-b56c-6cf98ca8450d">
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://therron.net/lopar740_therron</jdbc-url>
+    <user-name>lopar740_therron</user-name>
+    <user-password>dfc7dfcbdfcfdfcedfcbdfc4dfcbdfcfdfc4dfcb</user-password>
+    <libraries>
+      <library>
+        <url>jar://F:/mysql-connector-java-5.1.22-bin.jar!/</url>
+      </library>
+      <library>
+        <url>file://F:/mysql-connector-license.txt</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
